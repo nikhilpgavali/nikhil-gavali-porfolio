@@ -124,18 +124,20 @@
   transform: rotate(-90deg);
   font-size: 20rem;
   position: absolute;
-  top: 154%;
-  right: 65%;
+  top: 35%;
+  right: 40%;
   color: #fde4e8;
+  z-index: -1;
 }
 
 .rotate-skills {
   transform: rotate(-90deg);
   font-size: 20rem;
   position: absolute;
-  top: 280%;
-  right: 67%;
+  top: 45%;
+  right: 75%;
   color: #fde4e8;
+  z-index: -1;
 }
 
 .exp {
@@ -228,6 +230,7 @@
   font-weight: 400;
   font-family: "Nanum Gothic";
   color: #59437a;
+  position: relative;
 }
 
 .role {

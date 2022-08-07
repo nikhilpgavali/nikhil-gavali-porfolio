@@ -24,8 +24,8 @@ function App() {
           </div>
         </section>
         <section className="about">
-          <h1 className="rotate-about">About</h1>
           <div className="about-intro">
+            <h1 className="rotate-about">About</h1>
             <ul className="biodata-lists">
               <li className="biodata-key">NAME</li>
               <span className="biodata-value">Nikhil Gavali</span>
@@ -107,8 +107,8 @@ function App() {
           </div>
         </section>
         <section className="skills">
-          <h1 className="rotate-skills">Skills</h1>
           <div className="skills-details">
+            <h1 className="rotate-skills">Skills</h1>
             <div className="col-cls frontend-skills">
               <h3>FRONTEND</h3>
               <ul className="skill-list">
