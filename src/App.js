@@ -45,7 +45,11 @@ function App() {
               <span className="biodata-value">Books, Music</span>
               <li className="biodata-key">SOCIAL</li>
               <span className="biodata-value social-icons">
-                <a href="https://github.com/nikhilpgavali">
+                <a
+                  href="https://github.com/nikhilpgavali"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="icons"
                     src={githubLogo}
@@ -63,7 +67,11 @@ function App() {
                     width={20}
                   ></img>
                 </a>
-                <a href="https://www.linkedin.com/in/nikhilpgavali">
+                <a
+                  href="https://www.linkedin.com/in/nikhilpgavali"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="icons"
                     src={linkedInLogo}
@@ -94,7 +102,12 @@ function App() {
                 <h3 className="number-cls">12</h3>
               </div>
             </div>
-            <a href={require("./cv/testing.pdf")} className="btn-cv">
+            <a
+              href={require("./cv/testing.pdf")}
+              className="btn-cv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span>DOWNLOAD CV</span>
               <img
                 className="icons doanlod-icon"
