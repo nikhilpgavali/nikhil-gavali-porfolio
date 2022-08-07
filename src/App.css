@@ -1,38 +1,265 @@
-.App {
-  text-align: center;
+.pic-container {
+  height: 73rem;
+  width: 55rem;
+  background-color: aqua;
+  border-radius: 4rem;
+  background-image: linear-gradient(
+    to top,
+    #c9a9db 10%,
+    #615ca1 60%,
+    #c9a9db 100%
+  );
+  margin: 2rem 50rem;
+  position: static;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name-list {
+  position: absolute;
+  left: 9%;
+  margin: 0.6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-name {
+  font-size: 12rem;
+  margin-top: 12rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sur-name {
+  margin-left: 8rem;
+}
+
+.initial::after {
+  margin-left: 2rem;
+  z-index: 5;
+}
+
+.about-me {
+  font-size: 2.4rem;
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  line-height: 2.5rem;
+  color: #615ca1;
+}
+
+.my-pic {
+  /* margin-left: 10rem; */
+  margin-top: 10rem;
+  width: 100%;
+  border: none;
+  border-radius: 5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.about {
+  margin-top: 18rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 5rem;
+  /* align-items: center; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.about-intro {
+  height: 90rem;
+  width: 45rem;
+  background-color: #59437a;
+  border-radius: 5rem;
+  position: relative;
+}
+
+.experiance {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10rem;
+  row-gap: 10rem;
+  align-self: flex-start;
+}
+
+.text-cls {
+  font-size: 2rem;
+  margin-bottom: 8rem;
+  color: #59437a;
+  font-family: "Nanum Gothic";
+  letter-spacing: 0.6rem;
+  font-weight: 800;
+}
+
+.number-cls {
+  font-size: 8.4rem;
+  color: #c262af;
+  font-family: "Poppins";
+}
+
+.biodata-lists {
+  margin: 5rem 10rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.icons {
+  filter: brightness(0) invert(1);
+}
+
+.biodata-lists {
+  list-style: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.biodata-key {
+  margin-top: 5rem;
+  margin-bottom: 1.8rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.biodata-value {
+  font-size: 1.8rem;
+}
+
+.rotate-about {
+  transform: rotate(-90deg);
+  font-size: 20rem;
+  position: absolute;
+  top: 154%;
+  right: 65%;
+  color: #fde4e8;
+}
+
+.rotate-skills {
+  transform: rotate(-90deg);
+  font-size: 20rem;
+  position: absolute;
+  top: 280%;
+  right: 67%;
+  color: #fde4e8;
+}
+
+.exp {
+  transform: rotate(-90deg);
+  font-size: 20rem;
+  position: absolute;
+  top: 30%;
+  right: 80%;
+  color: #fde4e8;
+}
+
+.my-intro {
+  margin-top: 10rem;
+  color: #59437a;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.8rem;
+}
+
+.btn-cv:link,
+.btn-cv:visited {
+  background-color: #c262af;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-cv:hover,
+.btn-cv:active {
+  background-color: #59437a;
+}
+
+.btn-cv {
+  margin-top: 15rem;
+  padding: 3rem 10rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.5rem;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.doanlod-icon {
+  margin-left: 2rem;
+}
+
+.skills-details {
+  margin-top: 12rem;
+  margin-left: 25rem;
+  height: 55rem;
+  width: 100rem;
+  background-color: #59437a;
+  border-radius: 5rem;
+  display: flex;
+  column-gap: 3rem;
+  position: relative;
+}
+
+.skills-details h3 {
+  letter-spacing: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Poppins";
+}
+
+.col-cls {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.skill-list {
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.skill-list li {
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  font-family: "Nanum Gothic";
+}
+
+.personal-experiance {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem;
+  justify-items: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Nanum Gothic";
+  color: #59437a;
+}
+
+.role {
+  margin-bottom: 2rem;
+}
+
+.description {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.location {
+  letter-spacing: 0.2rem;
+  margin-bottom: 5rem;
+}
+
+.personal-experiance {
+  border-top: solid 2px #59437a;
+  border-bottom: solid 2px #59437a;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 30rem;
+  position: relative;
+}
+
+.years {
+  margin-top: 5rem;
+}
+
+.employer-details {
+  margin-top: 5rem;
 }
