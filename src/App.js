@@ -94,7 +94,7 @@ function App() {
                 <h3 className="number-cls">12</h3>
               </div>
             </div>
-            <a href="#" className="btn-cv">
+            <a href={require("./cv/testing.pdf")} className="btn-cv">
               <span>DOWNLOAD CV</span>
               <img
                 className="icons doanlod-icon"
