@@ -172,7 +172,7 @@ function App() {
             <h4 className="location">Pune / India</h4>
           </div>
           <div className="years">
-            <h3>December, 2019 - March, 2020</h3>
+            <h3>December, 2019 - March, 2021</h3>
           </div>
           <div className="employer-details">
             <h3 className="role">Senior Developer</h3>
@@ -184,7 +184,7 @@ function App() {
             <h4 className="location">Pune / India</h4>
           </div>
           <div className="years">
-            <h3>March, 2020 - Present</h3>
+            <h3>March, 2021 - Present</h3>
           </div>
           <div className="employer-details">
             <h3 className="role">Senior Developer</h3>
