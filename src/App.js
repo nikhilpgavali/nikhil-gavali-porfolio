@@ -13,7 +13,7 @@ function App() {
             <h1 className="my-name">Hello</h1>
             <h1 className="my-name">I'm</h1>
             <h1 className="my-name initial">Nikhil</h1>
-            <h1 className="my-name sur-name">Gavali</h1>
+            <h1 className="my-name sur-name">Gaval</h1>
           </div>
           <div className="about-me">
             <p>Full Stack Developer</p>
@@ -45,7 +45,7 @@ function App() {
               <span className="biodata-value">Books, Music</span>
               <li className="biodata-key">SOCIAL</li>
               <span className="biodata-value social-icons">
-                <a href="#">
+                <a href="https://github.com/nikhilpgavali">
                   <img
                     className="icons"
                     src={githubLogo}
@@ -63,7 +63,7 @@ function App() {
                     width={20}
                   ></img>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/nikhilpgavali">
                   <img
                     className="icons"
                     src={linkedInLogo}
