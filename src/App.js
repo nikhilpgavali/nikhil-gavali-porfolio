@@ -13,7 +13,7 @@ function App() {
             <h1 className="my-name">Hello</h1>
             <h1 className="my-name">I'm</h1>
             <h1 className="my-name initial">Nikhil</h1>
-            <h1 className="my-name sur-name">Gaval</h1>
+            <h1 className="my-name sur-name">Gavali</h1>
           </div>
           <div className="about-me">
             <p>Full Stack Developer</p>
