@@ -24,9 +24,6 @@ jobs:
       - name: Make executeable
         run: chmod +x .github/env.sh
 
-      - name: Set Environment Variables
-        run: .github/env.sh
-
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
@@ -35,3 +32,4 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
+        env: CI: false
