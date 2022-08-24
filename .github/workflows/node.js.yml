@@ -22,6 +22,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Set Environment Variables
+        run: chmod +x .github/env.sh
         run: .github/env.sh
 
       - name: Use Node.js ${{ matrix.node-version }}
