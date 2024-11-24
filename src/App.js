@@ -103,7 +103,7 @@ function App() {
               </div>
             </div>
             <a
-              href={require("./cv/testing.pdf")}
+              href={require("./cv/Resume Nikhil Gavali (3) (2).pdf.pdf")}
               className="btn-cv"
               target="_blank"
               rel="noopener noreferrer"
