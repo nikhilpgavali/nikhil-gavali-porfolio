@@ -11,8 +11,7 @@ export default function About() {
         <ul className="biodata-lists">
           <li className="biodata-key">NAME</li>
           <span className="biodata-value">Nikhil Gavali</span>
-          <li className="biodata-key">BIRTHDAY</li>
-          <span className="biodata-value">07.06.1992</span>
+          
           <li className="biodata-key">ROLE</li>
           <span className="biodata-value">Full Stack Developer</span>
           <li className="biodata-key">EMAIL</li>
