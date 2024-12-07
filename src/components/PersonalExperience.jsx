@@ -9,7 +9,7 @@ export default function PersonalExperience() {
         <h3 className="role">Senior Developer</h3>
         <p className="description">
           Currently I am working in Globant India Pvt Lid. I am working as a
-          backend Developer with skills - NodeJs, Nest Js, MongoDB, Postgres
+          backend Developer with skills - React, Angular, NodeJs, Nest Js, MongoDB, Postgres
           SQL, Typescript, AWS.
         </p>
         <h4 className="location">Pune / India</h4>
